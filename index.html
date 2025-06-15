@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>task3 js</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Righteous&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/all.min.css">
+</head>
+
+<body>
+
+  <div class="container ">
+    <div class="header">
+      <h1 class="my-5">Bookmarker</h1>
+      <div class="bords"></div>
+    </div>
+    <div class="section ">
+      <h2 class=" text-center pt-5 pb-5 fav" > <i class="fa-solid fa-bookmark"></i> Bookmark your favorite sites <i class="fa-solid fa-bookmark"></i></h2>
+    </div>
+
+    <div class="mb-4 inp container">
+      <label for="bookmarkName" class="form-label fw-bold"><i class="fa-solid fa-book-bookmark me-2"></i>Site Name</label>
+      <input type="text" class="form-control" id="bookmarkName"  placeholder="Bookmark Name">
+    </div>
+
+    <div class="mb-4 inp container">
+      <label for="bookmarkSite" class="form-label fw-bold"><i class="fa-solid fa-link me-2 "></i>Site URL</label>
+      <input type="url" class="form-control test "  id="bookmarkSite"  placeholder="Website URL">
+    </div>
+    <div class="row justify-content-center align-items-center" id="sub">
+      <button class="btn" type="submit">Submit</button>
+      <div class="bords"></div>
+    </div>
+  </div>
+
+  <div class="pt-5 container">
+    <table class="table text-center table-light">
+      <thead >
+        <tr>
+          <th>Index</th>
+          <th>Website Name</th>
+          <th>Visit</th>
+          <th>Delete</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> 
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
